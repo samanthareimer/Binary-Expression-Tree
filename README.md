@@ -30,10 +30,11 @@ make run
 ```
 This will execute the Binary Expression Tree program and allow you to input a postfix expression you want to be converted to infix.
 
-## Makfile Description
+## Makefile Description
 - **Make**: Builds the executable "BET.x" by compiling source files.
 - **Clean**: Removes the unwanted executable and object files.
 - **run**: Runs the executable BET.x
+
 Use make clean to remove generated object and executable files. 
 
 ## Considerations
