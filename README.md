@@ -1,9 +1,25 @@
 # Binary Expression Tree
 This project implements a Binary Expression Tree in C++ to convert inputted postfix expressions into infix expressions using recursive algorithms. The program supports error handling, printing, counting nodes and leaves, and memory management.
 
-### Part 1: Function
-- **Describe**: 
-- **Issues**:
+### Functions
+- **Build from Postfix**: Builds a binary tree from postfix expression
+- **Infix and Postfix Expressions**: Supports the printing of expressions in postfix and infix
+- **Conversion**: Converts given postfix expressions into infix
+- **Leaf Nodes**: The number of leaf nodes from the expression tree is counted and printed
+- **Size**: Gives the total number of nodes in the tree
+- **Copy Constructor and Assignment Operator**: Deep copy functionality for BET objects
+- **Destructor**: Cleans up memory when a BET object is destroyed
+
+### Example 
+This is an example of user input for a postfix expression. Please note variables CAN be used in this implementation. However, everything should be spaced out. 
+## Postfix Expression
+```ex
+x y z * + 
+```
+## Infix Conversion
+```ex
+x + y * z  
+```
 
 ## File Listing
 ```
@@ -37,5 +53,12 @@ This will execute the Binary Expression Tree program and allow you to input a po
 
 Use make clean to remove generated object and executable files. 
 
-## Considerations
-[Description]
+### Dependencies
+The following libraries support this C++ program: 
+- *<iostream>*
+- *<string>*
+- *<stream>*
+- *<cctype>*
+- *<stack>*
+
+
