@@ -53,12 +53,14 @@ This will execute the Binary Expression Tree program and allow you to input a po
 
 Use make clean to remove generated object and executable files. 
 
+
 ### Dependencies
-The following libraries support this C++ program: 
+The following libraries support this C++ program:
 - **<iostream>**
 - **<string>**
-- **<stream>**
+- **<sstream>**
 - **<cctype>**
 - **<stack>**
+
 
 
