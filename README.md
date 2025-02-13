@@ -8,41 +8,33 @@ This project implements a Binary Expression Tree in C++ to convert inputted post
 ## File Listing
 ```
 BinaryExpressionTree/
-│
-├── src/
-│ ├── main.cpp
-│ ├── bet.cpp
-│ ├── bet.h
-│ ├── bet.hpp
-│
-├── include/
-│ └── shell.h
-│
+├── main.cpp
+├── bet.h
+├── bet.hpp
+├── analysis.txt
 ├── README.md
 └── Makefile
 ```
 ## How to Compile & Execute
-
-### Requirements
-- **Compiler**: e.g., `gcc` for C/C++, `rustc` for Rust.
-- **Dependencies**: List any libraries or frameworks necessary (rust only).
-
 ### Compilation
-For a C/C++ example:
+To compile this project, run the following in your terminal:
 ```bash
 make
 ```
-This will build the executable in ...
-### Execution
-```bash
-./BET.x
-```
-This will run the program ...
+This will build the executable BET.x
 
-## Bugs
-- **Bug 1**: This is bug 1.
-- **Bug 2**: This is bug 2.
-- **Bug 3**: This is bug 3.
+### Execution
+After compiling, run the program with: 
+```bash
+make run
+```
+This will execute the Binary Expression Tree program and allow you to input a postfix expression you want to be converted to infix.
+
+## Makfile Description
+- **Make**: Builds the executable "BET.x" by compiling source files.
+- **Clean**: Removes the unwanted executable and object files.
+- **run**: Runs the executable BET.x
+Use make clean to remove generated object and executable files. 
 
 ## Considerations
 [Description]
