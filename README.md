@@ -14,11 +14,11 @@ This project implements a Binary Expression Tree in C++ to convert inputted post
 This is an example of user input for a postfix expression. Please note variables CAN be used in this implementation. However, everything should be spaced out. 
 ### Postfix Expression
 ```ex
-x y z * + 
+x y + r z - * 
 ```
 ### Infix Conversion
 ```ex
-x + y * z  
+( x + y ) * ( r - z )   
 ```
 
 ## File Listing
