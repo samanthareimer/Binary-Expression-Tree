@@ -23,7 +23,6 @@ x y + r z - *
 
 ## File Listing
 ```
-BinaryExpressionTree/
 ├── main.cpp
 ├── bet.h
 ├── bet.hpp
