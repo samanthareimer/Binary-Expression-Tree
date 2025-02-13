@@ -1,0 +1,5 @@
+The worst case-time complexity of makeEmpty(BinaryNode* & t) would be O(N). 
+
+This is because it must go through the subtree (or entire tree) and delete 
+each node present one at a time. Furthermore, this means it must go visit  
+n number of nodes. 
