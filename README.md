@@ -7,11 +7,13 @@ This project implements a Binary Expression Tree in C++ to convert inputted post
 
 ## File Listing
 ```
-shell/
+BinaryExpressionTree/
 │
 ├── src/
-│ ├── main.c
-│ └── shell.c
+│ ├── main.cpp
+│ ├── bet.cpp
+│ ├── bet.h
+│ ├── bet.hpp
 │
 ├── include/
 │ └── shell.h
