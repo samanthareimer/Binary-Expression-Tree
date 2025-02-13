@@ -33,7 +33,7 @@ make
 This will build the executable in ...
 ### Execution
 ```bash
-make run
+./BET.x
 ```
 This will run the program ...
 
