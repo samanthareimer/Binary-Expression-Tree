@@ -55,10 +55,10 @@ Use make clean to remove generated object and executable files.
 
 ### Dependencies
 The following libraries support this C++ program: 
-- *<iostream>*
-- *<string>*
-- *<stream>*
-- *<cctype>*
-- *<stack>*
+- **<iostream>**
+- **<string>**
+- **<stream>**
+- **<cctype>**
+- **<stack>**
 
 
