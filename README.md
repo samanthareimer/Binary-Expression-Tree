@@ -11,7 +11,7 @@ This project implements a Binary Expression Tree in C++ to convert inputted post
 - **Destructor**: Cleans up memory when a BET object is destroyed
 
 ### Example 
-This is an example of user input for a postfix expression. Please note variables CAN be used in this implementation. However, everything should be spaced out. 
+This is an example of user input for a postfix expression. Please note variables CAN be used in this implementation. However, everything should be spaced out. Parentheses will be added based on precedence. 
 ### Postfix Expression
 ```ex
 x y + r z - * 
